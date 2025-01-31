@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:property_title",
+ "creation": "2025-01-31 14:52:11.526816",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "properties_master_section_section",
+  "property_title",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "properties_master_section_section",
+   "fieldtype": "Section Break",
+   "label": "Properties Master Section"
+  },
+  {
+   "fieldname": "property_title",
+   "fieldtype": "Data",
+   "label": "Property Title",
+   "unique": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nInactive"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-31 14:53:58.845575",
+ "modified_by": "Administrator",
+ "module": "Bids For Leads",
+ "name": "Properties Master",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
