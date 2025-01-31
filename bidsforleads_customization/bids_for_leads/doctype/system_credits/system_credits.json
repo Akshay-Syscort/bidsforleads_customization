@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2025-01-31 14:42:22.983028",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "system_credits_section_section",
+  "title",
+  "cost",
+  "no_of_credits",
+  "offer",
+  "column_break_vxld",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_credits_section_section",
+   "fieldtype": "Section Break",
+   "label": "System Credits Section"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Currency",
+   "label": "Cost"
+  },
+  {
+   "fieldname": "no_of_credits",
+   "fieldtype": "Int",
+   "label": "No. of Credits"
+  },
+  {
+   "fieldname": "offer",
+   "fieldtype": "Data",
+   "label": "Offer"
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nInactive"
+  },
+  {
+   "fieldname": "column_break_vxld",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-31 14:45:08.887775",
+ "modified_by": "Administrator",
+ "module": "Bids For Leads",
+ "name": "System Credits",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
