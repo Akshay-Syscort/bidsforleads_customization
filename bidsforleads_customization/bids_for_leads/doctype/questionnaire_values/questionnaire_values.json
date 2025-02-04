@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:questionnaire_values",
+ "autoname": "format:QUEV-{#####}",
  "creation": "2025-01-31 15:48:58.795968",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -24,11 +24,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-31 15:50:18.119643",
+ "modified": "2025-02-04 16:57:47.972691",
  "modified_by": "Administrator",
  "module": "Bids For Leads",
  "name": "Questionnaire Values",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -44,7 +44,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "questionnaire_values"
 }

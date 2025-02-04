@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:assets_title",
+ "autoname": "format:ASTM-{#####}",
  "creation": "2025-01-31 14:55:09.481047",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -43,11 +43,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-31 16:38:17.779308",
+ "modified": "2025-02-04 16:57:05.247779",
  "modified_by": "Administrator",
  "module": "Bids For Leads",
  "name": "Assets Master",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -63,7 +63,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "assets_title"
 }
