@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:property_title",
+ "autoname": "format:PROP-{####}",
  "creation": "2025-01-31 14:52:11.526816",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -34,11 +34,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-31 16:37:55.794994",
+ "modified": "2025-02-04 16:38:16.195768",
  "modified_by": "Administrator",
  "module": "Bids For Leads",
  "name": "Properties Master",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -54,7 +54,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "property_title"
 }
