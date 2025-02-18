@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SUBSCI-{#####}",
+ "creation": "2025-02-18 13:52:34.462040",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "subscriptions_section_section",
+  "id",
+  "price",
+  "system_credits",
+  "title",
+  "bid_credits",
+  "discountlabel"
+ ],
+ "fields": [
+  {
+   "fieldname": "subscriptions_section_section",
+   "fieldtype": "Section Break",
+   "label": " Subscriptions Section"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "system_credits",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": " System Credits"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "bid_credits",
+   "fieldtype": "Int",
+   "label": "Bid Credits"
+  },
+  {
+   "fieldname": "discountlabel",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DiscountLabel"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-18 14:52:58.739202",
+ "modified_by": "Administrator",
+ "module": "Bids For Leads",
+ "name": "Subscriptions",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "id"
+}

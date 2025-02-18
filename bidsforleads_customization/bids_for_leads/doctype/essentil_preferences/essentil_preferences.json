@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:ESSPRE-{#####}",
+ "creation": "2025-02-18 14:56:23.285318",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "location_details_section",
+  "emirate",
+  "neighbourhoodcommunity",
+  "specific_street",
+  "towerbuilding_name",
+  "property_details_section",
+  "current_status_of_the_property",
+  "enter_price_in_aed",
+  "property_status_section",
+  "bedrooms",
+  "maids_room_included",
+  "property_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "location_details_section",
+   "fieldtype": "Section Break",
+   "label": "Location Details"
+  },
+  {
+   "fieldname": "emirate",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Emirate",
+   "options": "Emirate"
+  },
+  {
+   "fieldname": "neighbourhoodcommunity",
+   "fieldtype": "Data",
+   "label": "Neighbourhood/Community"
+  },
+  {
+   "fieldname": "specific_street",
+   "fieldtype": "Data",
+   "label": "Specific Street"
+  },
+  {
+   "fieldname": "towerbuilding_name",
+   "fieldtype": "Data",
+   "label": "Tower/Building Name"
+  },
+  {
+   "fieldname": "property_details_section",
+   "fieldtype": "Section Break",
+   "label": "Property Details"
+  },
+  {
+   "fieldname": "current_status_of_the_property",
+   "fieldtype": "Select",
+   "label": "Current Status of the Property",
+   "options": "\nOff-Plan\nReady Property"
+  },
+  {
+   "fieldname": "enter_price_in_aed",
+   "fieldtype": "Int",
+   "label": "Enter Price in AED"
+  },
+  {
+   "fieldname": "property_status_section",
+   "fieldtype": "Section Break",
+   "label": " Property Status"
+  },
+  {
+   "fieldname": "bedrooms",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Bedrooms",
+   "options": "\nStudio\n1\n2\n3\n4\n5"
+  },
+  {
+   "default": "0",
+   "fieldname": "maids_room_included",
+   "fieldtype": "Check",
+   "label": "Maid's Room Included"
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Property Type",
+   "options": "\nApartment\nVilla/Townhouse\nPenthouse"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-18 15:17:05.146978",
+ "modified_by": "Administrator",
+ "module": "Bids For Leads",
+ "name": "Essentil Preferences",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

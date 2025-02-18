@@ -29,16 +29,19 @@
   {
    "fieldname": "cost",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Cost"
   },
   {
    "fieldname": "no_of_credits",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "No. of Credits"
   },
   {
    "fieldname": "offer",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Offer"
   },
   {
@@ -57,7 +60,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-04 16:55:48.808176",
+ "modified": "2025-02-18 13:48:45.185817",
  "modified_by": "Administrator",
  "module": "Bids For Leads",
  "name": "System Credits",
